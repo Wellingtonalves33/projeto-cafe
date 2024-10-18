@@ -224,24 +224,21 @@ text-align: center;
 .services-card:hover .p-card-service{
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    background-color: #270c03;
+    min-height: 150px;
+    padding: 16px;
+}
+.div-logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p-footer{
+color: white;
+margin: 16px;
+}
  @media screen and (max-width: 840px){
     .div-log a {
         font-size: 1.4rem;
@@ -318,3 +315,18 @@ text-align: center;
     }
   
      }
+     @media screen and (max-width: 740px){
+  .div-card{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 3.5rem;
+  }
+       }
+       @media screen and (max-width: 740px){
+        .div-card{
+          display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 3.5rem;
+        }
+             }
+      
