@@ -184,10 +184,46 @@ padding: 3rem;
     max-width: 300px;
     position: relative;
 }
+.services-card:hover{
+    background-color: #854d3d;
+    color: white;
+}
+.div-card-image{
+    height: 122px;
+}
+.image-card{
+    max-width:120px ;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-5.5rem);
+    transition: transform 0.3s ease, scale 0.3s ease;
+}
+.services-card:hover .image-card{
+    transform: translateY(-3.5rem) scale(1.05) rotate(6deg);
+}
+.div-text-services-card{
+padding: 1rem ;
+text-align: center;
+}
+.h1-card-services{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.p-card-services{
+    color: #6b7280;
+    transition: all 0.7s ease;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
 
 
-
-
+}
+.services-card:hover .p-card-service{
+    color: #ffffff;
+}
 
 
 
