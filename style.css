@@ -191,11 +191,12 @@ main {
      top: 50px;
      left: 50px;
      top: 30%;
-     left: -290px;
+     left: -490px;
      padding: 20px;
      border-radius: 5px;
      gap: 30px;
      transition: left 1s ease-in-out; 
+     z-index: 3;
 }
 
 input{
@@ -334,6 +335,24 @@ footer {
     color: white;
     margin: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 840px) {
     .div-log a {
